@@ -9,6 +9,7 @@ const basicRoutes = [
   { path: '/bind-property', name: '속성 바인딩', id: id.value++ },
   { path: '/condition-loop', name: '조건문과 반복문', id: id.value++ },
   { path: '/form-bind', name: '폼(form) 바인딩', id: id.value++ },
+  { path: '/simple-component', name: '단순한 컴포넌트', id: id.value++ },
 ]
 
 const practiveRoutes = [

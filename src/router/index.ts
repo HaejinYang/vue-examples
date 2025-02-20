@@ -6,6 +6,7 @@ import InputHandleView from '@/views/InputHandleView.vue'
 import BindPropertView from '@/views/BindPropertView.vue'
 import ConditionLoopView from '@/views/ConditionLoopView.vue'
 import FormBindView from '@/views/FormBindView.vue'
+import SimpleComponentView from '@/views/SimpleComponentView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -44,6 +45,11 @@ const router = createRouter({
       path: '/form-bind',
       name: 'form-bind',
       component: FormBindView,
+    },
+    {
+      path: '/simple-component',
+      name: 'simple-component',
+      component: SimpleComponentView,
     },
     // {
     //   path: '/about',
