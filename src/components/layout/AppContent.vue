@@ -13,6 +13,7 @@ import { RouterView } from 'vue-router'
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  background-color: floralwhite;
+  padding: 30px;
+  border-left: 1px solid #cccccc;
 }
 </style>
