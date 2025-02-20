@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import MarkDownView from '@/views/MarkDownView.vue'
+import HelloVue from '@/views/HelloVue.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -14,6 +15,11 @@ const router = createRouter({
       path: '/markdown',
       name: 'markdown',
       component: MarkDownView,
+    },
+    {
+      path: '/hellovue',
+      name: 'hellovue',
+      component: HelloVue,
     },
     // {
     //   path: '/about',

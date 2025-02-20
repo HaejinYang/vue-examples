@@ -1,1 +1,7 @@
 @import './base.css';
+
+:root {
+  --primary-string-color: #42b883;
+  --weak-string-color: #3c3c3cb3;
+  --weak-line-color: #cccccc;
+}
