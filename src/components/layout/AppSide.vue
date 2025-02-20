@@ -8,6 +8,7 @@ const basicRoutes = [
   { path: '/input-handle', name: '사용자 입력 핸들링', id: id.value++ },
   { path: '/bind-property', name: '속성 바인딩', id: id.value++ },
   { path: '/condition-loop', name: '조건문과 반복문', id: id.value++ },
+  { path: '/form-bind', name: '폼(form) 바인딩', id: id.value++ },
 ]
 
 const practiveRoutes = [
