@@ -14,7 +14,7 @@ const basicRoutes = [
 
 const practiveRoutes = [
   { path: '/markdown', name: 'Markdown 편집기', id: id.value++ },
-  { path: '/markdown', name: 'Markdown 편집기', id: id.value++ },
+  { path: '/fetch-data', name: '데이터 가져오기', id: id.value++ },
   { path: '/markdown', name: 'Markdown 편집기', id: id.value++ },
   { path: '/markdown', name: 'Markdown 편집기', id: id.value++ },
 ]

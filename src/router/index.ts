@@ -7,6 +7,7 @@ import BindPropertView from '@/views/BindPropertView.vue'
 import ConditionLoopView from '@/views/ConditionLoopView.vue'
 import FormBindView from '@/views/FormBindView.vue'
 import SimpleComponentView from '@/views/SimpleComponentView.vue'
+import FetchDataView from '@/views/FetchDataView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -50,6 +51,11 @@ const router = createRouter({
       path: '/simple-component',
       name: 'simple-component',
       component: SimpleComponentView,
+    },
+    {
+      path: '/fetch-data',
+      name: 'fetch-data',
+      component: FetchDataView,
     },
     // {
     //   path: '/about',
