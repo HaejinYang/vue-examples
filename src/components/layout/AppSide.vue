@@ -4,8 +4,8 @@ import { ref } from 'vue'
 const id = ref(0)
 
 const basicRoutes = [
-  { path: '/hellovue', name: '안녕 Vue', id: id.value++ },
-  { path: '/markdown', name: 'Markdown 편집기', id: id.value++ },
+  { path: '/hello-vue', name: '안녕 Vue', id: id.value++ },
+  { path: '/input-handle', name: '사용자 입력 핸들링', id: id.value++ },
   { path: '/markdown', name: 'Markdown 편집기', id: id.value++ },
   { path: '/markdown', name: 'Markdown 편집기', id: id.value++ },
 ]
