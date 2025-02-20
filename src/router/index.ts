@@ -4,6 +4,7 @@ import MarkDownView from '@/views/MarkDownView.vue'
 import HelloVue from '@/views/HelloVueView.vue'
 import InputHandleView from '@/views/InputHandleView.vue'
 import BindPropertView from '@/views/BindPropertView.vue'
+import ConditionLoopView from '@/views/ConditionLoopView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -32,6 +33,11 @@ const router = createRouter({
       path: '/bind-property',
       name: 'bind-property',
       component: BindPropertView,
+    },
+    {
+      path: '/condition-loop',
+      name: 'condition-loop',
+      component: ConditionLoopView,
     },
     // {
     //   path: '/about',
