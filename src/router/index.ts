@@ -8,6 +8,7 @@ import ConditionLoopView from '@/views/ConditionLoopView.vue'
 import FormBindView from '@/views/FormBindView.vue'
 import SimpleComponentView from '@/views/SimpleComponentView.vue'
 import FetchDataView from '@/views/FetchDataView.vue'
+import SortedFilterView from '@/views/SortedFilterView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -56,6 +57,11 @@ const router = createRouter({
       path: '/fetch-data',
       name: 'fetch-data',
       component: FetchDataView,
+    },
+    {
+      path: '/sorted-filtered-grid',
+      name: 'sorted-filtered-grid',
+      component: SortedFilterView,
     },
     // {
     //   path: '/about',
