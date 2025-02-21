@@ -2,7 +2,7 @@
 interface Props {
   routes: { path: string; name: string; id: number }[]
   activeRouteId: number
-  subject: title
+  subject: string
 }
 
 const props = defineProps<Props>()
