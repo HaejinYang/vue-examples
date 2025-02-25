@@ -17,7 +17,7 @@ const practiceRoutes = [
   { path: '/markdown', name: 'Markdown 편집기', id: id.value++ },
   { path: '/fetch-data', name: '데이터 가져오기', id: id.value++ },
   { path: '/sorted-filtered-grid', name: '정렬과 필터가 있는 그리드', id: id.value++ },
-  { path: '/markdown', name: 'Markdown 편집기', id: id.value++ },
+  { path: '/tree', name: '트리 뷰', id: id.value++ },
 ]
 
 const activeRouterId = ref(-1)
