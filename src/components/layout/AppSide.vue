@@ -47,7 +47,7 @@ function onChangeActiveRouter(routerId: number) {
 
 <style scoped>
 .side {
-  width: 250px;
+  min-width: 250px;
 }
 
 .horizontal-line {
