@@ -4,7 +4,6 @@ import { type TreeItem as TreeItemType } from '@/types/tree'
 import { ref } from 'vue'
 
 let id = 1
-const depth = ref(0)
 const item = ref<TreeItemType>({
   id: id++,
   value: 'My Tree',
@@ -39,12 +38,13 @@ const item = ref<TreeItemType>({
     },
   ],
 })
+const lastId = ref(id);
 </script>
 
 <template>
   <div>
     <ul>
-      <TreeItem :data="item" :depth="depth" />
+      <TreeItem :data="item" :lastId="lastId" />
     </ul>
   </div>
 </template>
