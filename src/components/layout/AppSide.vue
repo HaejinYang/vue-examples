@@ -21,6 +21,8 @@ const practiceRoutes = [
   { path: '/transition-modal', name: '트랜지션 모달', id: id.value++ },
 ]
 
+const testRoutes = [{ path: '/composable', name: '컴포저블', id: id.value++ }]
+
 const activeRouterId = ref(-1)
 function onChangeActiveRouter(routerId: number) {
   activeRouterId.value = routerId
@@ -41,6 +43,13 @@ function onChangeActiveRouter(routerId: number) {
       @change-active-router="onChangeActiveRouter"
       :routes="practiceRoutes"
       subject="실습"
+      :active-route-id="activeRouterId"
+    />
+
+    <AppSideItem
+      @change-active-router="onChangeActiveRouter"
+      :routes="testRoutes"
+      subject="테스트"
       :active-route-id="activeRouterId"
     />
   </div>
