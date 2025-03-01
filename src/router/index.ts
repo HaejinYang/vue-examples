@@ -10,6 +10,7 @@ import SimpleComponentView from '@/views/SimpleComponentView.vue'
 import FetchDataView from '@/views/FetchDataView.vue'
 import SortedFilterView from '@/views/SortedFilterView.vue'
 import TreeView from '@/views/TreeView.vue'
+import TransitionModalView from '@/views/TransitionModalView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -68,6 +69,11 @@ const router = createRouter({
       path: '/tree',
       name: 'tree',
       component: TreeView,
+    },
+    {
+      path: '/transition-modal',
+      name: 'transition-modal',
+      component: TransitionModalView,
     },
 
     // {
